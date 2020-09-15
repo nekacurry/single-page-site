@@ -1,0 +1,96 @@
+#nav {
+	padding: 1em;
+    font-size: 1.3em;
+    position: fixed;
+    width: 100%;
+    background-color: #19121bbd;
+    z-index: 10;
+}
+nav a{
+    color: #d9cbeb; 
+    text-decoration: none;
+    text-align: center;
+    border-style: solid;
+    border-color: #d9cbeb;
+    margin: 1em;
+    border-width: thin;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+nav ul a {
+    padding: 0.7em;
+}
+#banner {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    color: whitesmoke;
+    padding: 20%;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.514);
+}
+h1 {
+    text-align: center;
+    font-family: "Montserrat";
+}
+#banner p {
+    text-align: center;
+    font-size: 0.5em;
+    font-style: italic;
+    margin: -50px;
+}
+#ContiguousUS ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#ContiguousUS > h2 {
+    margin: 1em;
+    font-size: 3em;
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Montserrat";
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.514);
+}
+
+.card {
+    width: 400px;
+    margin: 1em;
+    background-color:rgba(245, 245, 245, 0.795);
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+}
+
+.card img {
+    width: 100%;
+    height: 70%;
+}
+
+.card h3 {
+    font-size: 2em;
+}
+
+.card h3, .card p, .card span {
+    margin: 1rem;
+}
+.card p:first-of-type {
+    text-align: left;
+    font-style: italic;
+}
+.card p {
+    text-align: center;
+    margin-top: -15px;
+}
+body {
+    margin: 0;
+    background-color: #19121b;
+    font-family: "Raleway";
+}
