@@ -181,6 +181,7 @@ button:hover {
 }
 #contact h2{
     font-family: "Montserrat";
+    margin-top: -10px;
 }
 #contact form{
     display: flex;
@@ -222,4 +223,12 @@ form button {
     border-width: 0.15em;
     border-color: #130d14;
     margin: 0 10%;
+}
+#contact img{
+    width: 50%;
+}
+#contact p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
