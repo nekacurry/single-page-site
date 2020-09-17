@@ -29,8 +29,6 @@ nav ul a {
     padding: 0.7em;
 }
 #banner {
-    background-image: url(images/banner.jpg);
-    background-size: cover;
 	display: flex;
 	justify-content: center;
     align-items: center;
@@ -89,9 +87,6 @@ h1 {
 
 #Hawaii {
     margin-top: 10%;
-    background-color: #000000;
-    background-image: url(images/maunakea.jpg);
-    background-size: 1450px 822px ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,4 +226,20 @@ form button {
     text-align: center;
     margin: 0;
     padding: 0;
+}
+.parallax {
+background-image: url("images/banner4.jpg");
+height: 20%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.parallaxH {
+background-image: url("images/maunakea.jpg");
+height: 15%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
 }
